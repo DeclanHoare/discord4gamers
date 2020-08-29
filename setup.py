@@ -25,13 +25,13 @@ extras_require = {
     'voice': ['PyNaCl==1.0.1'],
 }
 
-setup(name='discord.py',
+setup(name='discord4gamers',
       author='Rapptz',
-      url='https://github.com/Rapptz/discord.py',
+      url='https://github.com/bonehurtingjuice/discord4gamers',
       version=version,
       packages=['discord', 'discord.ext.commands'],
       license='MIT',
-      description='A python wrapper for the Discord API',
+      description='A python wrapper for the Discord API (0.x fork)',
       long_description=readme,
       include_package_data=True,
       install_requires=requirements,
